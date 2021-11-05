@@ -1,0 +1,35 @@
+*{
+	padding: 0;
+	margin: 0;
+
+
+}
+
+#main-header{
+	background: yellow;
+	padding: 20px;
+}
+
+#left{
+	width: 30%;
+	float: left;
+	background: gray;
+	min-height: 300px;
+}
+
+#right{
+	width: 70%;
+	float: left;
+	min-height: 300px;
+}
+
+main:after{
+	clear:both;
+	display: block;
+	content: '';
+}
+
+#main-footer{
+	background: lightblue;
+	padding: 20px;
+}
